@@ -1,0 +1,8 @@
+@import 'tailwindcss';
+
+* {
+    scroll-behavior: smooth;
+}
+.group2 {
+    border: 4px solid #ff8a32;
+}
