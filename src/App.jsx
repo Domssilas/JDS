@@ -502,10 +502,11 @@ const Jds = () => {
                   Start Your Project
                   <ArrowRight className="ml-2" size={20} />
                 </button>
-                <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full hover:border-red-600 hover:text-red-600 transition-all duration-300 flex items-center justify-center font-semibold">
+                
+                {/* <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-full hover:border-red-600 hover:text-red-600 transition-all duration-300 flex items-center justify-center font-semibold">
                   <Play className="mr-2" size={20} />
                   Watch Our Story
-                </button>
+                </button>  */}
               </div>
 
               <div className="flex items-center space-x-8 pt-4">
@@ -528,16 +529,7 @@ const Jds = () => {
 
             <div className="relative">
               <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                <div className="space-y-4">
-                  <div className="h-4 bg-gradient-to-r from-red-400 to-orange-400 rounded w-3/4"></div>
-                  <div className="h-4 bg-gray-200 rounded w-full"></div>
-                  <div className="h-4 bg-gray-200 rounded w-5/6"></div>
-                  <div className="grid grid-cols-2 gap-4 mt-6">
-                    <div className="h-24 bg-gradient-to-br from-red-100 to-orange-100 rounded-lg"></div>
-                    <div className="h-24 bg-gradient-to-br from-orange-100 to-red-100 rounded-lg"></div>
-                  </div>
-                  <div className="h-8 bg-gradient-to-r from-red-600 to-orange-400 rounded-full w-32"></div>
-                </div>
+                <img src='../src/assets/growth.jpg'/>
               </div>
               <div className="absolute inset-0 bg-gradient-to-r from-red-400 to-orange-400 rounded-2xl transform -rotate-3 opacity-20"></div>
             </div>
@@ -638,10 +630,11 @@ const Jds = () => {
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <button className="bg-gradient-to-r from-red-600 to-orange-400 text-white px-8 py-4 rounded-full hover:shadow-xl transition-all duration-300 transform hover:scale-105 font-semibold flex items-center justify-center">
+                
+                {/* <button className="bg-gradient-to-r from-red-600 to-orange-400 text-white px-8 py-4 rounded-full hover:shadow-xl transition-all duration-300 transform hover:scale-105 font-semibold flex items-center justify-center">
                   Learn More About Us
                   <ArrowRight className="ml-2" size={20} />
-                </button>
+                </button> */}
                 <a href='#team' className="border-2 border-white/30 text-white px-8 py-4 rounded-full hover:bg-white hover:text-gray-900 transition-all duration-300 font-semibold">
                   Meet Our Team
                 </a>
@@ -689,7 +682,7 @@ const Jds = () => {
                   <div className="text-center">
                     <div className="text-3xl mb-2">🏆</div>
                     <div className="text-sm text-gray-300">Best Digital Agency</div>
-                    <div className="text-xs text-red-300">2024</div>
+                    <div className="text-xs text-red-300">2023</div>
                   </div>
                   <div className="text-center">
                     <div className="text-3xl mb-2">⭐</div>
@@ -794,9 +787,9 @@ const Jds = () => {
             >
               Schedule a Consultation
             </button>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-red-600 transition-all duration-300 font-semibold">
+              {/* <button className="border-2 border-white text-white px-8 py-4 rounded-full hover:bg-white hover:text-red-600 transition-all duration-300 font-semibold">
               View Our Portfolio
-            </button>
+            </button> */}
           </div>
         </div>
       </motion.section>
@@ -850,8 +843,8 @@ const Jds = () => {
               <div className="space-y-2 text-white">
                 <p>Lagos, Nigeria</p>
                 <p>Ikeja</p>
-                <p>contact@jds.com</p>
-                <p>(555) 123-4567</p>
+                <p>Jumerrydigitalsolutions@gmail.com</p>
+                {/* <p>(555) 123-4567</p> */}
               </div>
             </div>
           </div>
