@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, ArrowRight, Play, Star, ChevronUp } from 'lucide-react';
 import { motion, AnimatePresence, animate } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import growth from '../src/assets/growth.jpg';
 
 //Animate contact us
 const variants = {
@@ -529,7 +530,7 @@ const Jds = () => {
 
             <div className="relative">
               <div className="relative z-10 bg-white rounded-2xl shadow-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-500">
-                <img src='../src/assets/growth.jpg'/>
+                <img src= {growth}/>
               </div>
               <div className="absolute inset-0 bg-gradient-to-r from-red-400 to-orange-400 rounded-2xl transform -rotate-3 opacity-20"></div>
             </div>
