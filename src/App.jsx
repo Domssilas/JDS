@@ -844,7 +844,7 @@ const Jds = () => {
               <div className="space-y-2 text-white">
                 <p>Lagos, Nigeria</p>
                 <p>Ikeja</p>
-                <a target='_blank' href="https://mail.google.com/mail/?view=cm&fs=1&to=jumerrydigitalsolutions@gmail.com&su=Hello%20JDS%20Team&body=Hi%20JDS%20Team,%20I">JDS@gmail.com</a>
+                <a target='_blank' href="https://mail.google.com/mail/?view=cm&fs=1&to=jumerrydigitalsolutions@gmail.com&su=Hello%20JDS%20Team&body=Hi%20JDS%20Team,%20I">Email us</a>
                 {/* <p>(555) 123-4567</p> */}
               </div>
             </div>
