@@ -358,9 +358,16 @@ const Jds = () => {
                           duration: 1.3,
                         }}
                         className="flex items-center">
-              <div className="text-2xl font-bold bg-gradient-to-r from-red-600 to-orange-400 bg-clip-text text-transparent">
-                JD Solutions
-              </div>
+              <div className="flex items-center gap-2">
+  <img 
+    src="/jdslogo.png" 
+    alt="JDS Logo" 
+    className="w-8 h-8 object-contain"
+  />
+  <div className="text-2xl font-bold bg-gradient-to-r from-red-600 to-orange-400 bg-clip-text text-transparent">
+    JDS
+  </div>
+</div>
             </motion.div>
             
             <div className="hidden md:block">
@@ -581,7 +588,7 @@ const Jds = () => {
                   <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-red-700 transition-colors duration-300">{service.title}</h3>
                   <p className="text-gray-600 mb-8 group-hover:text-gray-700 transition-colors duration-300 leading-relaxed">{service.description}</p>
                   <div className="flex items-center text-red-600 group-hover:text-orange-400 transition-all duration-300">
-                    <span className="font-semibold">Learn More</span>
+                    {/*<span className="text-sm font-semibold">Learn More</span>*/}
                     <ArrowRight className="ml-2 w-5 h-5 transform group-hover:translate-x-2 transition-transform duration-300" />
                   </div>
                 </div>
@@ -620,14 +627,14 @@ const Jds = () => {
               
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-gray-300">
-                  Founded in 2019, JDS has grown from a small creative studio to a full-service digital agency trusted by brands worldwide. We combine strategic thinking with creative excellence to deliver digital experiences that drive real business results.
-                </p>
-                <p className="text-gray-300">
-                  Our team of award-winning designers, developers, and digital strategists work collaboratively to bring your vision to life. We don't just build websites – we craft digital ecosystems that engage, convert, and grow with your business.
-                </p>
-                <p className="text-gray-300">
-                  From Fortune 500 companies to innovative startups, we've helped hundreds of brands establish their digital presence and achieve measurable growth through strategic design and development.
-                </p>
+  Founded in 2019, JDS is a fully CAC registered company with Registration No. RC 9813554 and has grown from a small creative studio into a full-service digital agency trusted by brands worldwide. We combine strategic thinking with creative excellence to deliver digital experiences that drive real business results.
+</p>
+<p className="text-gray-300">
+  Our team of award-winning designers, developers, and digital strategists work collaboratively to bring your vision to life. We don't just build websites – we craft digital ecosystems that engage, convert, and grow with your business.
+</p>
+<p className="text-gray-300">
+  From Fortune 500 companies to innovative startups, we've helped hundreds of brands establish their digital presence and achieve measurable growth through strategic design and development as a legally registered entity.
+</p>
               </div>
 
               <div className="flex flex-col sm:flex-row gap-4">
@@ -800,9 +807,16 @@ const Jds = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             <div className="space-y-4">
-              <div className="text-2xl font-bold bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
-                JDS
-              </div>
+              <div className="flex items-center gap-2">
+  <img 
+    src="/jdslogo.png" 
+    alt="JDS Logo" 
+    className="w-8 h-8 object-contain"
+  />
+  <div className="text-2xl font-bold bg-gradient-to-r from-red-400 to-orange-400 bg-clip-text text-transparent">
+    JDS
+  </div>
+</div>
               <p className="text-white">
                 Growing brands online through exceptional digital experiences.
               </p>
