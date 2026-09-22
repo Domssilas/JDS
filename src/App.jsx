@@ -588,9 +588,10 @@ const Jds = () => {
                   <h3 className="text-xl font-bold text-gray-900 mb-4 group-hover:text-red-700 transition-colors duration-300">{service.title}</h3>
                   <p className="text-gray-600 mb-8 group-hover:text-gray-700 transition-colors duration-300 leading-relaxed">{service.description}</p>
                   <div className="flex items-center text-red-600 group-hover:text-orange-400 transition-all duration-300">
-                    {/*<span className="text-sm font-semibold">Learn More</span>*/}
+                    {/*<span className="text-sm font-semibold">Learn More</span>
                     <ArrowRight className="ml-2 w-5 h-5 transform group-hover:translate-x-2 transition-transform duration-300" />
-                  </div>
+                      */}
+                    </div>
                 </div>
 
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-red-400 via-orange-400 to-red-400 opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-500"></div>
