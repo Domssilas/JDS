@@ -457,14 +457,11 @@ const Jds = () => {
                 Services
                 <span className="absolute bottom-1 left-3 w-0 h-0.5 bg-gradient-to-r from-red-600 to-orange-400 group-hover:w-20 transition-all duration-300 ease-out"></span>
               </a>
-              <a href="#" className="relative block px-3 py-3 text-gray-900 hover:text-red-600 group">
-                Portfolio
-                <span className="absolute bottom-1 left-3 w-0 h-0.5 bg-gradient-to-r from-red-600 to-orange-400 group-hover:w-20 transition-all duration-300 ease-out"></span>
-              </a>
+              {/*
               <a href="#about" className="relative block px-3 py-3 text-gray-900 hover:text-red-600 group">
                 About
                 <span className="absolute bottom-1 left-3 w-0 h-0.5 bg-gradient-to-r from-red-600 to-orange-400 group-hover:w-20 transition-all duration-300 ease-out"></span>
-              </a>
+              </a> */}
               <a href="#" className="relative block px-3 py-3 text-gray-900 hover:text-red-600 group">
                 Contact
                 <span className="absolute bottom-1 left-3 w-0 h-0.5 bg-gradient-to-r from-red-600 to-orange-400 group-hover:w-20 transition-all duration-300 ease-out"></span>
@@ -628,7 +625,7 @@ const Jds = () => {
               
               <div className="space-y-6 text-lg leading-relaxed">
                 <p className="text-gray-300">
-  Founded in 2019, JDS is a fully CAC registered company with Registration No. RC 9813554 and has grown from a small creative studio into a full-service digital agency trusted by brands worldwide. We combine strategic thinking with creative excellence to deliver digital experiences that drive real business results.
+  Founded in 2019, JUMERRY DIGITAL SOLUTIONS HUB LTD (JDS) is a fully CAC registered company with Registration No. RC 9813554 and has grown from a small creative studio into a full-service digital agency trusted by brands worldwide. We combine strategic thinking with creative excellence to deliver digital experiences that drive real business results.
 </p>
 <p className="text-gray-300">
   Our team of award-winning designers, developers, and digital strategists work collaboratively to bring your vision to life. We don't just build websites – we craft digital ecosystems that engage, convert, and grow with your business.
